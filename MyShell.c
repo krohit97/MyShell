@@ -281,7 +281,7 @@ int main()
 
   signal(SIGINT, &sigkill);
   do {
-    printf("shell> ");
+    printf("MyShell> ");
     line = read_line();
 
     if(!(strcmp(line,"\n") == 0))
